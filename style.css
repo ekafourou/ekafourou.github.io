@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #4f5a65;
+    background: #f3f5f7;
+}
+
+
+#header {
+    background-color: #aaf0d1;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    max-width: 100px;
+    flex: left;
+    padding: 5px 5px;
+}
+
+.identity {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    flex: right;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h3 {
+    font-weight: 400;
+    margin-top: auto;
+    font-size: 1.5em;
+}
+
+main {
+    line-height: 1.6;
+    align-content: center;
+}
+
+#hero {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-description {
+    padding: 0px 10px;
+}
+
+#work {
+    margin-top: 20px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+h4 {
+    margin: auto;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+h4 {
+    margin: auto;
+}
+
+.description {
+    margin: auto;
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 750px) {
+    .portfolioa,
+    .portfoliob,
+    .portfolioc {
+        width: 30%;
+    }
+    .header {
+        font-size: 100%;
+    }
+    .logo {
+        padding: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #header {
+        height: 80px;
+    }
+    .identity {
+        font-size: 50%;
+    }
+    .logo {
+        max-width: 65px;
+        padding: 5px 5px;
+    }
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+.portfolio-image {
+    height: 150px;
+}
+
+.portfolio-description {
+    background-color: #fcfdfd;
+    padding: 10px 5px;
+
+}
+
+.portfolioa {
+    background-image: url(img/whitepaper.png);
+
+}
+
+.portfoliob {
+    background-image: url(img/softwareguide.jpg);
+}
+
+.portfolioc {
+    background-image: url(img/udacitylogo.jpg);
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    padding-bottom: 8px;
+    font-size: 1.2 em;
+}
+
+.icon {
+    width: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-credits {
+    font-size: 0.5em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
